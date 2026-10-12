@@ -4,8 +4,7 @@ cask "eagle-commander" do
   version "1.0.0"
   sha256 "1a11eaca241bcf7cfb4caaf344b85d6597599f8c680e44db5f29dff969590d5d"
 
-  url "https://github.com/ulebule/eagle-commander-releases/releases/download/v#{version}/EagleCommander.dmg",
-      verified: "github.com/ulebule/eagle-commander-releases/"
+  url "https://github.com/ulebule/eagle-commander-releases/releases/download/v#{version}/EagleCommander.dmg"
   name "Eagle Commander"
   desc "Two-panel file manager in the tradition of Total Commander"
   homepage "https://eaglecommander.eaglesoft.si/"
@@ -21,7 +20,7 @@ cask "eagle-commander" do
 
   # Sparkle updates the app; brew must not fight it (D109).
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Eagle Commander.app"
 
