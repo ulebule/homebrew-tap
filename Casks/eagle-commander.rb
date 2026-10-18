@@ -1,8 +1,8 @@
 # The Homebrew cask (D111). The source of truth is this file; release.sh fills
 # in the version and the checksum and copies it into ulebule/homebrew-tap.
 cask "eagle-commander" do
-  version "1.1.1"
-  sha256 "b3fb3c000bd7efd9dbc2246721d9a49042d9d138f2bf01acb61983d79e0e8425"
+  version "1.2.0"
+  sha256 "e16ec92b6a62b54d87f232665aa4266a32d2046e7cf89674c37309d734c9ee3f"
 
   url "https://github.com/ulebule/eagle-commander-releases/releases/download/v#{version}/EagleCommander.dmg"
   name "Eagle Commander"
